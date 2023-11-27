@@ -1,7 +1,7 @@
 # random-text
 gives a random quote with appropriate author to the quote
 
-the js
+the js <br >
 gets text when opened/refreshed
 ```
 $(document).ready(function () {
