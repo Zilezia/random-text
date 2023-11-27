@@ -1,0 +1,69 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background: #555;
+}
+
+#quote-box
+{
+  width: 500px;
+  margin-inline: auto;
+  margin-top: 100px;
+  background: #ccc;
+}
+
+.last-line
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin: 15px 5px;
+}
+
+#tweet-quote
+{
+  @extend .last-line;
+  background: red;
+  width: 40px; height: 40px;
+  border-radius: 6px;
+  svg
+  {
+    margin-inline: auto;
+    width: 30px; height: 30px;
+  }
+}
+
+#new-quote
+{
+  @extend .last-line;
+  padding-inline: 5px;
+  border-radius: 6px;
+  height: 40px;
+  background: red;
+  cursor: pointer;
+  p
+  {
+    user-select: none;
+  }
+}
+
+#whole-quote
+{
+  width: 75%;
+  margin-inline: auto;
+}
+
+#author
+{
+  
+  p
+  {
+    text-align: right;  
+  }
+}
